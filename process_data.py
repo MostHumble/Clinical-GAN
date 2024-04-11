@@ -163,9 +163,9 @@ def load_mimic_data(mimic3_path,CCSRDX_file,CCSRPCS_file,choice ='ndc'):
     admissionFile = os.path.join(mimic3_path, 'ADMISSIONS.csv')
     diagnosisFile = os.path.join(mimic3_path, 'DIAGNOSES_ICD.csv')
     procedureFile = os.path.join(mimic3_path, 'PROCEDURES_ICD.csv')
-    patientsAge = os.path.join(mimic3_path, 'patientsAge.csv')
+    #patientsAge = os.path.join(mimic3_path, 'patientsAge.csv')
     prescriptionFile = os.path.join(mimic3_path, 'PRESCRIPTIONS.csv')
-    diagnosisFrequencyFile = os.path.join(mimic3_path, 'WITHOUT_IF_CODE_COUNT.csv')
+    #diagnosisFrequencyFile = os.path.join(mimic3_path, 'WITHOUT_IF_CODE_COUNT.csv')
     #outFile = 'data'
     print ('Building pid-admission mapping, admission-date mapping')
     previous_subject = 0
